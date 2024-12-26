@@ -1,0 +1,41 @@
+{
+  "checkpoints": [
+    {
+      "id": "checkpoint-1",
+      "description": "Initial project setup with email processing functionality",
+      "date": "2024-03-19",
+      "files": [
+        "src/App.tsx",
+        "src/components/ApolloCleaner.tsx",
+        "src/components/OutscrapperCleaner.tsx",
+        "src/components/OtherCleaner.tsx",
+        "src/utils/emailUtils.ts",
+        "src/utils/validation.ts"
+      ]
+    },
+    {
+      "id": "checkpoint-2",
+      "description": "Added URL cleaning functionality, removed Apollo cleaner",
+      "date": "2024-03-20",
+      "files": [
+        "src/App.tsx",
+        "src/components/TabNavigation.tsx",
+        "src/components/UrlCleaner.tsx",
+        "src/components/url/ResultsPreview.tsx",
+        "src/components/url/ErrorList.tsx",
+        "src/utils/url/constants.ts",
+        "src/utils/url/types.ts",
+        "src/utils/url/validation.ts",
+        "src/utils/url/processor.ts",
+        "src/utils/url/domainExtractor.ts",
+        "src/utils/url/export.ts"
+      ],
+      "removedFiles": [
+        "src/components/ApolloCleaner.tsx",
+        "src/utils/url/urlProcessor.ts",
+        "src/utils/url/urlCleaner.ts"
+      ]
+    }
+  ],
+  "currentCheckpoint": "checkpoint-2"
+}
